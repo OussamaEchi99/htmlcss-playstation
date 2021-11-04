@@ -42,6 +42,10 @@ header{
 }
 
 /* MENU-HEADER */
+nav{
+    background-color: white;
+}
+
 .menu_header{
     width: 100%;
     height: 65px;
@@ -96,5 +100,14 @@ header{
 
 /* MAIN */
 main{
-    
+    margin-top: 105px;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    height: 700px;
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
