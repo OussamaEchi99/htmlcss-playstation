@@ -1,4 +1,8 @@
 /* COMMON */
+body{
+    font-family: Arial, sans-serif;
+}
+
 .ms_container_type1{
     width: 98%;
     margin: auto;
@@ -10,14 +14,20 @@ ul{
     margin: 0;
 }
 
-li{
-    padding: 0;
-    margin: 0;
+a{
+    text-decoration: none;
+    color: black;
 }
 
-
 /* HEADER */
-
+header{
+    font-family: Helvetica, arial, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 /* LOGO-SONY */
 .logo_sony{
@@ -35,7 +45,6 @@ li{
 .menu_header{
     width: 100%;
     height: 65px;
-    background-color: red;
 }
 
 .menu_header .row{
@@ -43,6 +52,16 @@ li{
 }
 
 .menu_links{
+    width: 100%;
+}
+
+.menu_links ul{
+    width: 70%;
+}
+
+.menu_header i{
+    margin: 0 5px;
+    font-size: 10px;
 }
 
 .menu_links img{
@@ -51,4 +70,31 @@ li{
 
 .menu_links a{
     width: 10%;
+}
+
+/* RIGHT-MENU */
+.right_menu img{
+    width: 25px;
+}
+
+.login_btn{
+    background-color: #363636;
+    color: white;
+    border: none;
+    margin: 0 15px;
+}
+
+.login_btn:hover{
+    background: white;
+    color: #363636;
+    border: 1px solid #363636;
+}
+
+.login_btn:focus{
+    box-shadow: none;
+}
+
+/* MAIN */
+main{
+    
 }
