@@ -1,0 +1,54 @@
+/* COMMON */
+.ms_container_type1{
+    width: 98%;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* HEADER */
+
+
+/* LOGO-SONY */
+.logo_sony{
+    width: 100%;
+    height: 36px;
+    background-color: #000000;
+}
+
+.logo_sony img{
+    height: 40%;
+    margin: 0 15px;
+}
+
+/* MENU-HEADER */
+.menu_header{
+    width: 100%;
+    height: 65px;
+    background-color: red;
+}
+
+.menu_header .row{
+    height: 100%;
+}
+
+.menu_links{
+}
+
+.menu_links img{
+    width: 4%;
+}
+
+.menu_links a{
+    width: 10%;
+}
