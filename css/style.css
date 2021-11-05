@@ -76,6 +76,11 @@ nav{
     width: 10%;
 }
 
+.burger {
+    font-size: 50px;
+    text-align: right;
+}
+
 /* RIGHT-MENU */
 .right_menu img{
     width: 25px;
