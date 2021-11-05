@@ -1,6 +1,7 @@
 /* COMMON */
 body{
     font-family: Arial, sans-serif;
+    font-weight: bold;
 }
 
 .ms_container_type1{
@@ -19,11 +20,22 @@ a{
     color: black;
 }
 
+
+.btn{
+    border-radius: 30px;
+}
+
 .btn:focus{
     box-shadow: none;
 }
 
+.row{
+    height: 100%;
+}
 
+h2{
+    font-size: 43px;
+}
 /* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
@@ -137,10 +149,6 @@ main{
     margin: 20px 0;
 }
 
-.jumbotron_content h2{
-    font-size: 43px;
-}
-
 .image_game_logo img{
     width: 420px;
 }
@@ -166,4 +174,50 @@ main{
 .slide img{
     width: 100%;
     border-radius: 20px;
+}
+
+/* PLAYSTATION 5 */
+/* PLAYSTATIOM-5-TITLE */
+.ps5_title h2{
+    margin-bottom: 20px;
+}
+
+.ps5_title p{
+    font-size: 25px;
+    color: #727272;
+}
+
+.ps5_title span{
+    color: #0072ce;
+}
+
+/* CONSOLE PLAYSTATION 5 */
+.console_ps5 img{
+    width: 100%;
+}
+
+.console_ps5 p{
+    font-size: 21px;
+}
+
+.ps5_image img{
+    width: 100%;
+}
+
+.line_select_accessories{
+    width: 100%;
+    height: 2px;
+    background-color: #0072ce;
+}
+
+.console_ps5_slide_selected{
+    width: 20%;
+}
+
+.ps5_image{
+    width: 80%;
+}
+
+.ps5_accessories_image img{
+    width: 100%;
 }
