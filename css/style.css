@@ -221,3 +221,50 @@ main{
 .ps5_accessories_image img{
     width: 100%;
 }
+
+/* BANNER */
+.banner{
+    height: 700px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner .container{
+    height: 100%;
+}
+
+.banner_content{
+    width: 40%;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner_content > *{
+    margin: 20px 0;
+}
+
+.banner_content .image_game_logo img{
+    width: 250px;
+}
+
+/* NEW RELEASES */
+.new_releases{
+    height: 700px;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.new_releases a{
+    color: white;
+}
+
+.new_releases a:hover{
+    color: #0a58ca;
+}
+
+.new_game_releases img{
+    width: 100%;
+}
