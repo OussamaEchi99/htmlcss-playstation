@@ -25,6 +25,12 @@ a{
     border-radius: 30px;
 }
 
+/* .btn-primary:hover{
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+} */
+
 .btn:focus{
     box-shadow: none;
 }
@@ -250,9 +256,14 @@ main{
     width: 250px;
 }
 
+@media screen and (max-width: 991px) {
+    .banner_content{
+        width: 100%;
+    }
+}
+
 /* NEW RELEASES */
 .new_releases{
-    height: 700px;
     background-color: #1f1f1f;
     color: white;
 }
@@ -267,4 +278,16 @@ main{
 
 .new_game_releases img{
     width: 100%;
+    border-radius: 20px;
 }
+
+/* PLAYSTATION 4 */
+.ps4_title h2{
+    margin-bottom: 20px;
+}
+
+.ps4_title p{
+    font-size: 25px;
+    color: #727272;
+}
+
