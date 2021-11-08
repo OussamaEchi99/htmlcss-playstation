@@ -291,3 +291,40 @@ main{
     color: #727272;
 }
 
+/* PLAYSTATION-PLUS */
+.playstation_plus_banner{
+    background-color: #bebcbb;
+}
+
+.playstation_plus_image img{
+    width: 60%;
+}
+
+.playstation_plus_btn a{
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+
+/* PLAYSTATION-STORE */
+.playsation_store p{
+    color: #797979;
+    font-size: 20px;
+}
+
+/* PLAYSTATION-NOW */
+.playstation_now_banner{
+    background-color: #161c3b;
+}
+
+.playstation_now_banner p{
+    color: white;
+}
+
+.playstation_now_image img{
+    width: 60%;
+}
+
+.playstation_now_btn a{
+    background-color: white;
+    color: black;
+}
