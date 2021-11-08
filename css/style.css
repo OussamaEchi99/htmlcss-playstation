@@ -328,3 +328,27 @@ main{
     background-color: white;
     color: black;
 }
+
+/* FOOTER */
+footer{
+    background-color: #00439c;
+    color: white;
+    margin-top: 80px;
+}
+
+footer a{
+    color: white;
+}
+
+footer li{
+    margin: 10px 0;
+}
+
+/* LOGO-LANGUAGE */
+.playstation_logo_footer img{
+    width: 96px;
+}
+
+.globe_img img{
+    width: 20px;
+}
