@@ -182,6 +182,16 @@ main{
     border-radius: 20px;
 }
 
+.slide_selected{
+    border: 2px solid #0072ce;
+    padding: 3px 3px;
+    border-radius: 20px;
+}
+
+.slide{
+    padding: 3px 3px;
+}
+
 /* PLAYSTATION 5 */
 /* PLAYSTATIOM-5-TITLE */
 .ps5_title h2{
